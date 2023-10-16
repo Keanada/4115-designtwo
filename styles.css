@@ -1241,6 +1241,6 @@ p {
 }
 
 #logo {
-  width: 300px;
+  width: 120%;
   filter: invert(0);
 }
