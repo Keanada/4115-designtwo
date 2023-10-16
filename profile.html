@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Keana's Profile</title>
+  </head>
+
+  <body>
+
+    <div id="profileCon">
+        <div class="sidebar">
+            <div class="menu">
+              
+              <ul>
+                <li id="sidebarTitle">
+                  <img
+                    id="logo"
+                    src="./src/img/artisync_white.png "
+                    width="36px"
+                  />
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li class="sideLink"><img src="./src/icons/home.png" /> <a href="./dashboard.html" class="sidebarNav">Home</a></li>
+                <li class="sideLink">
+                  <img src="./src/icons/face-woman-profile.png" /><a href="profile.html" class="sidebarNav">Profile</a>
+                </li>
+                <li class="sideLink" id="unavailable"><img src="./src/icons/forum.png" />Messages</li>
+                <li class="sideLink"><img src="./src/icons/work_FILL0_wght400_GRAD0_opsz24.svg" /><a href="./jobs.html" class="sidebarNav">Jobs</a></li>
+        
+                <li class="sideLink">
+                  <img src="./src/icons/account-group.png" /> <a href="network.html" class="sidebarNav">Network</a>
+                </li>
+                <li></li>
+                <li></li>
+                <li class="sideLink" id="unavailable"><img src="./src/icons/cog.png" />Settings</li>
+                <li class="sideLink" id="unavailable">
+                  <img src="./src/icons/face-agent.png" />Support
+                </li>
+                <li class="sideLink" id="unavailable"><img src="./src/icons/shield.png" />Privacy</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div id="profileRight">
+            <div class="header">
+              <div class="topleft">
+                <img src="./src/icons/search.svg" class="searchIcon" />
+                <input class="search" />
+              </div>
+              <div class="topright">
+                <img src="./src/icons/bell.png" class="tright" id="notif" />
+                <img src="./src/icons/keanaicon.png" class="tright" id="pfp" />
+                <h2 class="tright" id="name">Keana Sioson</h2>
+              </div>
+              <div class="bottomleft">
+                <img src="./src/icons/keanaicon.png" class="icon" id="nameIcon" />
+                <div class="intro">
+                  <h2 id="hi">Hi there,</h2>
+                  <h3 id="name">Keana Sioson (@keana)</h3>
+                </div>
+              </div>
+              <div class="bottomright">
+                <button class="button">Edit Profile</button>
+                <button class="button">Share</button>
+              </div>
+            </div>
+            <div id="profileTop">
+                <div id="profilePic">
+                    <img src="./src/icons/keanaicon.png" id="profilePicImg">
+                </div>
+                <div id="profileBio">
+                    <div id="fullName">Keana Sioson</div>
+                    <h2 id="myTitle">Aspiring Web Developer</h2>
+                    <div id="bio">Hi everyone! I'm Keana and I am a fourth-year student at KPU. I have been practicing web development for three years and I strive to become a full stack developer once I graduate.
+                        <br><br>My hobbies include playing video games, video editing, exercising, and cooking.<br><br>
+                        Check out my latest projects below! :)
+                       </div>
+                </div>
+            </div>
+            <div id="profileMid">
+                <h2 id="profileProjectTitle">Project Showcase</h2>
+                <div id="showcase">
+                <div class="profileProject" id="project1">
+                    <div class="projectImg"><img src="./src/img/project1.JPG" class="profileProjImg"></div>
+                    <div class="projDesc">
+                        <h3 class="projTitle">Project 1: Restaurant Design</h3>
+                        <div class="likes">  <img src="./src/icons/heart-red-svgrepo-com.svg" class="heartIcon">47</div>
+                        <div class="pDesc">Created a restaurant page for JavaScript practice</div>
+                    </div>
+                </div>
+                <div class="profileProject" id="project2">
+                    <div class="projectImg"><img src="./src/img/project2.JPG" class="profileProjImg"></div>
+                    <div class="projDesc">
+                        <h3 class="projTitle">Project 2: Etch-A-Sketch</h3>
+                        <div class="likes">  <img src="./src/icons/heart-red-svgrepo-com.svg" class="heartIcon">8</div>
+                        <div class="pDesc">just a silly etch a sketch thing</div>
+                    </div>
+
+                </div>
+                <div class="profileProject" id="project3">
+                    <div class="projectImg"><img src="./src/img/project4.JPG" class="profileProjImg"></div>
+                    <div class="projDesc">
+                        <h3 class="projTitle">Project 3: Company Website Design</h3>
+                        <div class="likes"> 
+                            <img src="./src/icons/heart-red-svgrepo-com.svg" class="heartIcon">24</div>
+                        <div class="pDesc">Helped design a website for a company I work at</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="profileBot">
+                <div id="skills">
+                    <h2 id="skillTitle">Skills</h2>
+       
+                    <div id="skill1" class="eachSkill">
+                 
+                        <p>HTML</p>
+                        <div class="skillBar" id="HTMLbar"></div>
+                    </div>
+                    <div id="skill2" class="eachSkill">
+                        <p>CSS</p>
+                        <div class="skillBar" id="CSSbar"></div>
+                    </div>
+                    <div id="skill3" class="eachSkill">
+                        <p>JS</p>
+                        <div class="skillBar" id="JSBar"></div>
+                    </div>
+                    <div id="skill4" class="eachSkill">
+                        <p>SQL</p>
+                        <div class="skillBar" id="SQL"></div>
+                    </div>
+                </div>
+                <div id="contact">
+                  <h2 id="contactTitle">Contact</h2>
+                  <div class="contactInfo" class="email">
+                    <h3>Email: </h3>
+                    <p>keana@email.com</p>
+                  </div>
+                  <div class="contactInfo" class="phone">
+                    <h3>Phone: </h3>
+                    <p>123-456-7890</p>
+                  </div>
+                  <div class="contactInfo" class="sm">
+                    <h3>Twitter: </h3>
+                    <p>@keana</p>
+                  </div>
+                  <div class="contactInfo" class="sm">
+                    <h3>Instagram: </h3>
+                    <p>@keana</p>
+                  </div>
+                </div>
+                <div id="worksWithCon">
+                  <h2 id="worksWithTitle">I Work With...</h2>
+                  <div id="workLine1" class="workWith">
+                    <div id="workU1" class="workUser">
+                      <img src="./src/icons/yasicon.png" class="workIcon">
+                      <p>Yasmine Khan</p> 
+                    </div>
+                    <div id="workU2" class="workUser">
+                      <img src="./src/icons/juicebox.JPG" class="workIcon">
+                      <p>Nabia Hussan</p> 
+                    </div>
+                    <div id="workU3" class="workUser">
+                      <img src="./src/icons/trend2.JPG" class="workIcon">
+                      <p>Kim Lip</p> 
+                    </div>
+                  </div>
+                  <div id="workLine2" class="workWith">
+                    <div id="workU4" class="workUser">
+                      <img src="./src/icons/download20230405114839.png" class="workIcon">
+                      <p>Tom Smith</p> 
+                    </div>
+                    <div id="workU4" class="workUser">
+                      <img src="./src/icons/download20230405104429.png" class="workIcon">
+                      <p>Bob Jones</p> 
+                    </div>
+                    <div id="workU5" class="workUser">
+                      <img src="./src/icons/darren.jpg" class="workIcon">
+                      <p>Darren Chris</p> 
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
