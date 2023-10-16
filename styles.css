@@ -54,6 +54,14 @@ body {
   }
 }
 
+@media screen and (min-width: 1080px) {
+  /* Styles for screens wider than 768px */
+  html {
+    max-width: 1080px;
+    max-height: 1080px;
+  }
+}
+
 #navigation > li {
   list-style: none;
   padding: 12px;
@@ -711,9 +719,11 @@ li {
   color: white;
 
   width: 15vw;
-  height: 50vh;
+  height: 300px;
   border: 1px solid white;
   margin: 12px;
+  min-height: 200px;
+  max-height: 225px;
 }
 
 .networkCard:hover {
@@ -738,16 +748,18 @@ li {
   display: flex; /* defines flexbox */
   align-items: flex-end; /* bottom of the box */
   justify-content: center;
+  flex: 1;
 }
 .cardBot {
   background-color: rgb(238, 238, 238);
+  flex: 1;
 }
 
 .cardPic {
   border-radius: 100px;
   object-fit: cover;
-  width: 100px;
-  height: 100px;
+  width: 5vw;
+
   border: 2.5px solid #ffffff;
   box-shadow: 0px 0px 15px rgb(66, 66, 66);
   filter: saturate(200%);
