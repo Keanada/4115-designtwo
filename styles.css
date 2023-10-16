@@ -1007,7 +1007,7 @@ p {
   grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
   justify-self: center;
   width: 15vw;
-  height: 325px;
+  height: 55vh;
   padding: 24px;
   background-color: #1c1e30;
   border-radius: 25px;
@@ -1063,7 +1063,7 @@ p {
 
 #contact {
   width: 15vw;
-  height: 325px;
+  height: 55vh;
   padding: 24px;
   background-color: #1c1e30;
   border-radius: 25px;
@@ -1087,7 +1087,7 @@ p {
 
 #worksWithCon {
   width: 20vw;
-  height: 325px;
+  height: 55vh;
   padding: 24px;
   background-color: #1c1e30;
   border-radius: 25px;
