@@ -531,7 +531,7 @@ li {
   align-items: center;
 }
 .project {
-  width: 85%;
+  width: 90%;
   height: max-content;
 }
 
@@ -544,7 +544,7 @@ li {
   display: grid;
   padding-top: 12px;
   border-left: #5635db 10px solid;
-  min-height: 200px;
+
   max-height: max-content;
 }
 
@@ -596,11 +596,17 @@ li {
   font-family: "Inter";
 }
 
+.portLink {
+  color: blue;
+  text-decoration: underline;
+  margin: 0;
+}
 .pDesc {
   color: rgb(34, 32, 32);
   height: max-content;
   font-size: 1rem;
   padding-left: 1vw;
+  padding-bottom: 1vh;
 }
 
 .announcements {
@@ -739,7 +745,7 @@ li {
 #networkCon,
 #profileCon {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
 }
 
 .networkCard {
@@ -783,6 +789,10 @@ li {
 .cardBot {
   background-color: rgb(238, 238, 238);
   flex: 1;
+}
+
+.pImg {
+  border-radius: 25px;
 }
 
 .cardPic {
@@ -1164,7 +1174,7 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .workIcon {
-  width: 6vw;
+  width: 5vw;
   border-radius: 50px;
 }
 .workUser > p {
